@@ -1,0 +1,32 @@
+.root {
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    padding: 8px;
+    outline: none;
+    width: 300px;
+    border-radius: 12px;
+    font-size: 16px;
+    background: url('') center right no-repeat;
+    background-size: contain;
+    display: flex;
+}
+.button {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border-radius: 12px;
+    
+}
+.icon {
+    flex: 0 1 16px;
+    height: 16px;
+    width: 16px;
+    opacity: 0.3;
+}
+.input {
+    flex: 1 1 100%;
+    border: none;
+}
